@@ -414,6 +414,9 @@ def get_answer(qobj: dict):
     else:
       ans_collection = to_collection(question_text)
 
+    if qtype == 583:
+      qtype = 531   # 针对听后填空重新排序
+
   return [qtype, question_text, ans_collection]
 
 
@@ -585,7 +588,7 @@ def onResponse(context, response):
           ans[0] = "听后双项选择"
         elif ans[0] == 532:
           ans[0] = "听后转述"
-        elif ans[0] == 583:
+        elif ans[0] == 531: # 原（583）-> 强制排序（531）
           ans[0] = "听后填空"
         elif ans[0] == 588:
           ans[0] = "朗读短文"
