@@ -1,5 +1,10 @@
 # [TXW答案生成器](https://blog.echomirix.top/posts/b937703a/)
 
+> [!WARNING]
+> 本项目已升级为 [Up366-Offline-Reader](https://github.com/Echomirix/Up366-Offline-Reader)
+
+---
+
 > [!CAUTION]
 > 本项目仅供学习和研究使用，请在下载后24小时内删除所有相关内容。请勿将本项目用于商业用途或传播！
 
